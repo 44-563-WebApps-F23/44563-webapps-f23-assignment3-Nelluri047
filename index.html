@@ -55,6 +55,17 @@
             <td>3 hours</td>
         </tr>
     </table>
+    <hr>
+    <h3>code fencing</h3>
+    <a href="https://css-tricks.com/snippets/javascript/random-hex-color/"> source link</a>
+    <pre>const setBg = () => {
+        const randomColor = Math.floor(Math.random()*16777215).toString(16);
+        document.body.style.backgroundColor = "#" + randomColor;
+        color.innerHTML = "#" + randomColor;
+      }
+      
+      genNew.addEventListener("click", setBg);
+      setBg();</pre>
 
 </body>
 
